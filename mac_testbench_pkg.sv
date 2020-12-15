@@ -1,0 +1,35 @@
+package mac_testbench_pkg;
+  import uvm_pkg::*;
+  
+  `include "packet.sv"
+  `include "xgmii_packet.sv"
+  `include "wishbone_item.sv"
+  `include "reset_item.sv"
+  `include "packet_sequence.sv"
+  `include "wishbone_sequence.sv"
+  `include "reset_sequence.sv"
+  `include "reset_driver.sv"
+  `include "reset_agent.sv"
+  `include "packet_tx_driver.sv"
+  `include "packet_tx_monitor.sv"
+  `include "packet_tx_agent.sv"
+  `include "packet_rx_monitor.sv"
+  `include "packet_rx_agent.sv"
+  `include "wishbone_driver.sv"
+  `include "wishbone_monitor.sv"
+  `include "wishbone_agent.sv"
+  `include "xgmii_tx_monitor.sv"
+  `include "xgmii_rx_monitor.sv"
+  `include "xgmii_tx_agent.sv"
+  `include "xgmii_rx_agent.sv"
+  `include "virtual_sequencer.sv"
+  `include "virtual_sequence.sv"
+  `include "scoreboard.sv"
+  `include "packet_subscriber.sv"
+  `include "mac_env.sv"
+  `include "mac_test.sv"
+  `include "testcase.sv"
+ // `include "mac_assertions.sv"
+
+endpackage
+  
